@@ -17,7 +17,7 @@
             "externalConsole": true,
             "MIMode": "gdb",
             "miDebuggerPath": "C:\\mingw-w64\\x86_64-8.1.0-win32-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
-            "preLaunchTask": "echo",
+            "preLaunchTask": "Run_Task",
             "setupCommands": [
                 {
                     "description": "gdb için düzgün yazdırmayı etkinleştir",
