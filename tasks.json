@@ -4,13 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "Run_Task",
             "type": "shell",
             "command": "g++",
             "args": [
+                "-g"
                 "src/main.cpp",
                 "-o",
-                "src/${workspaceFolderBasename}"
+                "src/${workspaceFolderBasename}.exe"
             ],
             "group": {
                 "kind": "build",
